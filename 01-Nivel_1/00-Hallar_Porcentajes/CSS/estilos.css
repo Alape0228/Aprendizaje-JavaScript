@@ -1,0 +1,22 @@
+.form1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.form1-resultado{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.form2-resultado{
+    width: 200px;
+    height: 40px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
