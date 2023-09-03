@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: error</h3>
+        <p>Ocurre cuando sucede un error durante la carga de un archivo multimedia
+          * Sirve para video o imagenes </p>
+        <div class="caja caja01">
+          <img src="https://fondosmil.com/fondo/17010.jpg" class="ejemplo1">
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: load</h3>
+        <p>* Ocurre cuando un objeto se ha cargado
+          * Se puede acceder al body sin necesidad de agregarle algun tipo de clase solo con (window.addEventListener)</p>
+        <div class="caja caja02 ejemplo2">
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: beforeunload</h3>
+        <p>  * Ocurre antes de que el documento este a punto de descargarse
+          * Genera el evento en el momento en que damos click a un enlace para dirigirnos a otra pagina antes de cargarse o dirigirse a dicha pagina se genera el evento
+          *podemos generar el evento en todo el body solo con addEventListener </p>
+        <div class="caja caja03">
+          <a href="https://www.youtube.com/">Enlace a youtube</a>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: unload</h3>
+        <p>  * Ocurre una ves que se ha descargado una pagina
+          * Cuando te vas del sitio y antes de que te vayas del sitio</p>
+        <div class="caja caja04">
+          <a href="https://www.youtube.com/">Enlace a youtube</a>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: resize</h3>
+        <p>*Ocurre cuando se cambia el tamaño de la vista del documento</p>
+        <div class="caja caja05">
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: scroll</h3>
+        <p>Ocurre cuando se desplaza la barra de desplazamiento de un elemento</p>
+        <div class="caja caja06">
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: select</h3>
+        <p>* Ocurre cuando el puntero se mueve mientras esta sobre un elemento
+          * Si algo del texto del inputo o del text area es seleccionado se generara el evento</p>
+        <p class="prueba"></p>
+        <div class="caja caja07">
+          <div class="caja_sub caja_sub00">
+            <textarea cols="30" rows="10" class="textarea"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/codigo.js"></script>
+  </body>
+</html>

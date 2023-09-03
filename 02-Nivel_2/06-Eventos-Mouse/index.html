@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: Click</h3>
+        <p>Evento generado por un solo click, el evento se aplica indiferentemente que el click se de a su caja padre o cada uno de sus elementos o cajas internas </p>
+        <div class="caja caja01">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: dblclick</h3>
+        <p>Evento generado al usar doble click no lento o separado</p>
+        <div class="caja caja02">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mouseover</h3>
+        <p>* Ocurre cuando el puntero se mueve sobre un elemento o sobre uno de sus hijos</p>
+        <p>* Si el puntero del mouse entra a otro div hijo del elemento se aplicara el evento o si entra a algun boton u otro elemento hijo se seguira aplicando el evento repetitivamente hasta que se salga del contenedor padre como tal que es el que contiene el evento</p>
+        <div class="caja caja03">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mouseout</h3>
+        <p>* Ocurre cuando se mueve el puntero fuera de un elemento o de sus elementos secundarios</p>
+        <p>* El evento se aplica a la caja contenedora si el mouse se para dentro de su caja no generara efecto pero si sale de la caja si</p>
+        <p>* Si el mouse esta dentro de uno de los elementos hijos y el puntero intenta salir de sus elementos hijos se aplicara el efecto </p>
+        <div class="caja caja04">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: contextmenu</h3>
+        <p>*Ocurre con un click en el boton derecho en un elemento para abrir un menu contextual</p>
+        <div class="caja caja05">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mouseenter</h3>
+        <p>* Ocurre cuando el puntero se mueve sobre un elemento</p>
+        <p>* Si el mouse entra al elemento se aplica el efecto y mientras este pasando el mouse por el resto de sus elementos hijos no se aplicara el efecto si no cuando el puntero vuelva a salir y vuelva a regresar al elemento</p>
+        <p>se recomienda usar en internet explorer</p>
+        <div class="caja caja06">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mousemove</h3>
+        <p>* Ocurre cuando el puntero se mueve mientras esta sobre un elemento</p>
+        <div class="caja caja07">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mouseleave</h3>
+        <p>* Ocurre cuando el puntero se mueve fuera de un elemento</p>
+        <div class="caja caja08">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mousedown</h3>
+        <p>* Ocurre cuando el puntero se mueve mientras esta sobre un elemento</p>
+        <div class="caja caja09">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+      <div class="cotenedor01 contenedor00">
+        <h3>Evento: mouseup</h3>
+        <p>* Ocurre cuando un usuario suelta un boton del mouse sobre un elemento</p>
+        <div class="caja caja10">
+          <div class="caja_sub caja_sub00">
+            <button>Click</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/codigo.js"></script>
+  </body>
+</html>

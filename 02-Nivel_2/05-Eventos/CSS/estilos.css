@@ -1,0 +1,19 @@
+.contenedor {
+  padding: 20px;
+  background-color: red;
+  margin: 20px;
+}
+
+.contenedor10 {
+  padding: 40px;
+}
+
+.contenedorAmarillo {
+  background-color: yellow;
+}
+.contenedorAzul {
+  background-color: blue;
+}
+.contenedorRojo {
+  background-color: red;
+}
