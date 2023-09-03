@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.tabla{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabla_alumno{
+    display: grid;
+    grid-template-columns: repeat(4,240px);
+    gap: 10px;
+}
+
+.tabla_alumno div{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}

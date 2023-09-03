@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contenedor div {
+  border: 2px solid black;
+  min-width: 240px;
+  max-height: 240px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  height: 80px;
+  object-fit: initial;
+}
+
+.contenedor div:hover {
+  box-shadow: 0 0 30px 5px;
+}
+
+.contenedor div:focus {
+  box-shadow: 0 0 30px 5px;
+}
+/* Recordar que si con javascritp o desde el html le agregamos el tab index es posible que funcione el focus en los elementos */

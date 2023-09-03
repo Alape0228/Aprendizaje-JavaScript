@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_contenedor{
+    width: 90%;
+    height: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    background-color: #013;
+}
+
+.form_titulo{
+    margin-left: 20px;
+    color: #fff;
+}
+
+input{
+    height: 50px;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #48e;
+    outline: none;
+    background-color:unset;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+button{
+    background-color: #48e;
+    width: 50%;
+    height: 60%;
+    margin: -15px 20px;
+    color: #fff;
+}
